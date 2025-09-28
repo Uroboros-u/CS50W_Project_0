@@ -5,19 +5,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="conteiner">
+        <div class="container">
             <div class="up">
-                <a href="image.html">Google Image Search</a>
-                <a href="advanced.html">Google Advanced Search</a>
+                <div class="up_left"></div>
+                <div class="up_center">
+                </div>
+                <div class="up_right">
+                    <div class="links">
+                        <a href="advanced.html">Google Advanced Search</a>
+                        <a href="image.html">Google Image Search</a>
+                    </div>
+                </div>
             </div>
             <div class="center">
+                <div class="logo">
+                    <div class="andloog">Super<div>Google</div></div>
+                </div>
                 <form class="search-box" action="https://google.com/search">
                         <input class="input_field" id="input_search" type="text" name="q">
-                        <input class="search_button" type="submit" value="Google Search">
+                        <div id="two_search_buttons">
+                            <input class="search_button" type="submit" value="Google Search">
+                            <input class="search_button" type="submit" value="I'm Feeling Lucky" name="btnI">
+                        </div>
+
                 </form>
             </div>
             <div class="down">
-                DOWN
             </div>
         </div>
     </body>

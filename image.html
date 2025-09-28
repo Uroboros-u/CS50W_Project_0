@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google Image Search</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="conteiner">
-            <div class="up">
+<head>
+    <title>Google Image Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="up">
+        <div class="up_left"></div>
+        <div class="up_center">
+        </div>
+        <div class="up_right">
+            <div class="links">
                 <a href="index.html">Google Search</a>
                 <a href="advanced.html">Google Advanced Search</a>
             </div>
-            <div class="center">
-                <form class="search-box" action="https://www.google.com/search?udm=2&">
-                        <input class="input_field" type="hidden" name="udm" value="2">
-                        <input class="input_field" id="input_search" type="text" name="q">
-                        <input class="search_button" type="submit" value="Google Search">
-                </form>
-            </div>
-            <div class="down">
-                DOWN
-            </div>
         </div>
-    </body>
+    </div>
+    <div class="center">
+        <div class="logo">
+            <div class="andloog">Super<div>Google</div><div style="font-size: 15px">Image</div></div>
+        </div>
+        <form class="search-box" action="https://google.com/search">
+            <input class="input_field" type="hidden" name="udm" value="2">
+            <input class="input_field" id="input_search" type="text" name="q">
+            <div id="two_search_buttons">
+                <input class="search_button" type="submit" value="Google Search">
+            </div>
+
+        </form>
+    </div>
+    <div class="down">
+    </div>
+</div>
+</body>
 </html>
