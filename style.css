@@ -56,7 +56,7 @@ html, body {
     align-items: center;
 }
 
-.andloog {
+.logo_text {
     margin-bottom: 20px;
     font-size: 50px;
     color: #b10202;
@@ -64,7 +64,7 @@ html, body {
 
 }
 
-.andloog > div {
+.logo_text > div {
     display: inline-block;
     color: #01018f;
 }
